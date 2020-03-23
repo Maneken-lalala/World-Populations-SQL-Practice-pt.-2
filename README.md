@@ -1,6 +1,6 @@
 # World-Populations-SQL-Practice-pt.-2
 
-In this project I am working with another world population dataset provided by Codecademy.com. The dataset contains date of world population by country data from recent years.
+In this project I am working with another world population dataset provided by Codecademy.com. The dataset contains info  world population by country and continent data from recent years.
 
 The dataset contains two tables:
 
