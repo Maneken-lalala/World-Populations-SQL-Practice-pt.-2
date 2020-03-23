@@ -6,16 +6,16 @@ The dataset contains two tables:
 
 countries:
 
-| Column  | Type  |
-|---------|-------|
-|   id    |Integer|
-|   name  | Text  |
-|continent| Text  |
+| Column  | Type  |   Notes   |
+|---------|-------|-----------|
+|   id    |Integer|Primary Key|
+|   name  | Text  |           |
+|continent| Text  |           |
 
 population_years:
-|  Column  | Type  |
-|----------|-------|
-|    id    |Integer|
-|population| Number|
-|   year   | Number|
-|country_id|Integer|
+|  Column  | Type  |    Notes    |
+|----------|-------|-------------|
+|    id    |Integer| Primary Key |
+|population| Number|(in millions)|
+|   year   | Number|             |
+|country_id|Integer| Foreign Key |
